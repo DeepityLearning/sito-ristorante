@@ -1,0 +1,95 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: rgb(192, 44, 44);
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px 20px 10px 20px;
+    border-bottom: solid 2px rgb(12, 150, 150);
+}
+
+h2 {
+    color: rgb(12, 150, 150);
+    font-family: "PT Serif", serif;
+    padding-bottom: 5px;
+}
+
+.nav-link {
+    background-color: rgb(134, 166, 226);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px 20px 10px 20px;
+    font-family: "Anton", sans-serif;
+}
+
+.nav-container {
+    background-color: rgb(192, 44, 44);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.Box.map-placeholder {
+    border-style: solid;
+    border-color: rgb(58, 138, 58);
+    border-width: 5px;
+    display: block;
+    height: 300px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(231, 231, 94);
+    text-align: center;
+    line-height: 300px;
+    font-size: 24px;
+    font-family: "Luckiest Guy", cursive;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border: solid 2px rgb(12, 150, 150);
+}
+
+td {
+    border: solid 1px rgb(12, 150, 150);
+    padding: 10px;
+    background-color: white;
+}
+
+tr:nth-child(even) td {
+    background-color: pink;
+}
+
+.contact-Box {
+    background-color: rgb(194, 140, 40);
+    padding: 20px;
+    border-radius: 10px 20px 10px 20px;
+    width: 60%;
+    margin: 20px auto;
+    display: block;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
